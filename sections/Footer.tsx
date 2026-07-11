@@ -1,9 +1,8 @@
 "use client";
 
 import { siteConfig } from "@/config/site";
-import { ArrowUp, Heart } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "@/components/icons";
-import { motion } from "framer-motion";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();

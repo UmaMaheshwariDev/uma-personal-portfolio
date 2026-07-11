@@ -3,7 +3,7 @@
 import { portfolioData } from "@/data/portfolio";
 import { siteConfig } from "@/config/site";
 import { motion } from "framer-motion";
-import { ArrowRight, Code2, Terminal, ShieldCheck, Sparkles, Flame } from "lucide-react";
+import { ArrowRight, Terminal, ShieldCheck, Sparkles, Flame } from "lucide-react";
 
 export function Hero() {
   const { profile } = portfolioData;
@@ -167,25 +167,25 @@ export function Hero() {
               <div className="flex items-start gap-3">
                 <span className="text-zinc-600 text-right select-none w-4">2</span>
                 <span className="pl-4">
-                  name: <span className="text-emerald-400">"{siteConfig.name}"</span>,
+                  name: <span className="text-emerald-400">&quot;{siteConfig.name}&quot;</span>,
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-zinc-600 text-right select-none w-4">3</span>
                 <span className="pl-4">
-                  role: <span className="text-emerald-400">"Full-Stack Developer"</span>,
+                  role: <span className="text-emerald-400">&quot;Full-Stack Developer&quot;</span>,
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-zinc-600 text-right select-none w-4">4</span>
                 <span className="pl-4">
-                  skills: <span className="text-purple-400">["React", "Next.js", "Node.js", "Spring Boot"]</span>,
+                  skills: <span className="text-purple-400">[&quot;React&quot;, &quot;Next.js&quot;, &quot;Node.js&quot;, &quot;Spring Boot&quot;]</span>,
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-zinc-600 text-right select-none w-4">5</span>
                 <span className="pl-4">
-                  focus: <span className="text-amber-400">"Modern Web Apps & AI API Integration"</span>,
+                  focus: <span className="text-amber-400">&quot;Modern Web Apps &amp; AI API Integration&quot;</span>,
                 </span>
               </div>
               <div className="flex items-start gap-3">

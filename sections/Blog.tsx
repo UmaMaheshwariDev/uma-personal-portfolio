@@ -2,7 +2,7 @@
 
 import { portfolioData } from "@/data/portfolio";
 import { motion } from "framer-motion";
-import { ArrowUpRight, BookOpen, Clock } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 export function Blog() {
   const blogs = portfolioData.blogs;

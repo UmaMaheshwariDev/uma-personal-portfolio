@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { portfolioData, TechItem } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 import { motion } from "framer-motion";
 
 // Custom premium SVG representations for logos

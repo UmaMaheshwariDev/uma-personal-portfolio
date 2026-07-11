@@ -27,11 +27,11 @@ export default function Home() {
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     if (hasVisited || prefersReducedMotion) {
-      setIsLoading(false);
+      setTimeout(() => setIsLoading(false), 0);
     } else {
       try {
         localStorage.setItem("portfolio-visited", "true");
-      } catch (e) {
+      } catch {
         // Safe fallback for private browsing or disabled cookies
       }
     }

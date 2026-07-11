@@ -1,14 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { portfolioData } from "@/data/portfolio";
 import { siteConfig } from "@/config/site";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, CheckCircle2, AlertCircle, Mail, ArrowUpRight } from "lucide-react";
+import { Send, CheckCircle2, AlertCircle, Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "@/components/icons";
 
 export function Contact() {
-  const { profile } = portfolioData;
 
   // Form states
   const [name, setName] = useState("");
@@ -64,7 +62,7 @@ export function Contact() {
       } else {
         setFormError("Failed to send inquiry. Please try again or email directly.");
       }
-    } catch (err) {
+    } catch {
       setFormError("Something went wrong. Please try again.");
     } finally {
       setIsSubmitting(false);
@@ -85,7 +83,7 @@ export function Contact() {
             GET IN TOUCH
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold font-display tracking-tight text-foreground mb-4">
-            Let's build something exceptional together.
+            Let&apos;s build something exceptional together.
           </h2>
           <p className="text-muted-foreground text-sm sm:text-base max-w-xl">
             Whether you need a full-stack MVP built, a custom analytics dashboard, or code performance optimization, I am ready to collaborate.
@@ -113,7 +111,7 @@ export function Contact() {
                   </span>
                 </div>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  Booking projects starting this month. Let's align on scopes.
+                  Booking projects starting this month. Let&apos;s align on scopes.
                 </p>
               </div>
 
@@ -171,7 +169,7 @@ export function Contact() {
             {/* Closing statement */}
             <div className="border-t border-border/50 pt-8 mt-8 lg:mt-0">
               <p className="text-[11px] font-mono text-muted-foreground leading-relaxed">
-                * Standard response times are within 24 business hours. Let's arrange a 15-minute video call to discuss your objectives.
+                * Standard response times are within 24 business hours. Let&apos;s arrange a 15-minute video call to discuss your objectives.
               </p>
             </div>
           </div>
@@ -193,7 +191,7 @@ export function Contact() {
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold font-display text-foreground">Inquiry Received!</h3>
                     <p className="text-xs sm:text-sm text-muted-foreground max-w-sm">
-                      Thank you for reaching out. I've received your project details and will check them over. I'll get back to you shortly!
+                      Thank you for reaching out. I&apos;ve received your project details and will check them over. I&apos;ll get back to you shortly!
                     </p>
                   </div>
                   <button

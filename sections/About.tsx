@@ -89,7 +89,7 @@ export function About() {
                 href="#contact"
                 className="px-6 py-3 bg-secondary/50 text-foreground hover:bg-secondary transition-colors rounded-xl text-sm font-semibold flex items-center gap-1.5"
               >
-                Let's Work Together
+                Let&apos;s Work Together
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
