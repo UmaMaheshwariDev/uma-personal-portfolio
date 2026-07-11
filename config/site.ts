@@ -6,7 +6,7 @@ export const siteConfig = {
   ogImage: "https://my-portfolio-uma-s-projects2.vercel.app/og-image.png",
   resumeUrl: "/Uma_FreeLancer.pdf",
   links: {
-    github: "https://github.com/UmaMaheshwariDev",
+    github: "https://github.com/UmaMaheshwari7474",
     linkedin: "https://www.linkedin.com/in/uma-maheshwari-muthyala-46736434b/",
     leetcode: "https://leetcode.com/u/uma_7474/",
     email: "muthyalaumamaheshwari.dev@gmail.com",

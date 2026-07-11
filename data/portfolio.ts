@@ -128,7 +128,7 @@ export const portfolioData = {
       technologies: ["Next.js (App Router)", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn/UI", "Vercel"],
       links: {
         live: "https://my-portfolio-uma-s-projects2.vercel.app/",
-        github: "https://github.com/UmaMaheshwariDev/MyPortfolio"
+        github: "https://github.com/UmaMaheshwari7474/MyPortfolio"
       },
       accentColor: "from-slate-900 via-slate-800 to-zinc-900"
     },
@@ -141,7 +141,7 @@ export const portfolioData = {
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Gemini API", "Twilio", "Leaflet", "WebRTC", "PWA"],
       links: {
         live: "https://safe-her-psi.vercel.app/",
-        github: "https://github.com/UmaMaheshwariDev/SafeHer"
+        github: "https://github.com/UmaMaheshwari7474/SafeHer"
       },
       accentColor: "from-rose-600 to-pink-500"
     },
@@ -154,7 +154,7 @@ export const portfolioData = {
       technologies: ["React", "Java", "Spring Boot", "PostgreSQL", "JWT", "REST APIs", "JPA"],
       links: {
         live: "https://student-study-planner-beta.vercel.app/",
-        github: "https://github.com/UmaMaheshwariDev/Student-Study-Planner"
+        github: "https://github.com/UmaMaheshwari7474/Student-Study-Planner"
       },
       accentColor: "from-blue-600 to-cyan-500"
     },
@@ -166,7 +166,7 @@ export const portfolioData = {
       category: "Machine Learning / Python",
       technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Linear Regression", "Data Analysis"],
       links: {
-        github: "https://github.com/UmaMaheshwariDev/student-performance-predictor-ml"
+        github: "https://github.com/UmaMaheshwari7474/student-performance-predictor-ml"
       },
       accentColor: "from-indigo-600 to-purple-500"
     }
