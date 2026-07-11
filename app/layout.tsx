@@ -90,6 +90,12 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-primary selection:text-primary-foreground">
+        <noscript>
+          <style>{`
+            #global-loader { display: none !important; }
+            body { overflow: auto !important; }
+          `}</style>
+        </noscript>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
