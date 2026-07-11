@@ -121,5 +121,21 @@ This project is fully structured for zero-configuration deployments on Vercel:
 1. Push your codebase to a GitHub, GitLab, or Bitbucket repository.
 2. Log into your [Vercel Dashboard](https://vercel.com).
 3. Click **Add New** > **Project** and import your repository.
-4. Vercel will automatically detect **Next.js** settings. Click **Deploy**.
 5. Once complete, hook up your custom domain. SSL certificates and Edge caching will configure automatically.
+
+---
+
+## 📄 Resume Document Configuration
+
+The portfolio features centralized configuration to manage and serve your professional resume.
+
+* **Resume Filename:** `Uma_FreeLancer.pdf`
+* **Local Location:** `public/Uma_FreeLancer.pdf`
+* **Public URL Path:** `/Uma_FreeLancer.pdf`
+* **Local Test URL:** `http://localhost:3000/Uma_FreeLancer.pdf`
+* **Production URL:** `https://uma-personal-portfolio.vercel.app/Uma_FreeLancer.pdf`
+
+### How to Replace the Resume:
+To update your resume later:
+1. Replace the existing file at `public/Uma_FreeLancer.pdf` with your new PDF document.
+2. **Important Note:** The replacement file must keep the exact same filename (`Uma_FreeLancer.pdf`) unless you also update the `resumeUrl` parameter inside [config/site.ts](file:///c:/Users/admin/OneDrive/文件/FreeLancing/config/site.ts).

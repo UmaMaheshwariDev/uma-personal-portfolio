@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { siteConfig } from "@/config/site";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, CheckCircle2, AlertCircle, Mail } from "lucide-react";
+import { Send, CheckCircle2, AlertCircle, Mail, FileText } from "lucide-react";
 import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "@/components/icons";
 
 export function Contact() {
@@ -161,6 +161,16 @@ export function Contact() {
                   >
                     <LeetcodeIcon className="w-4 h-4 text-indigo-500" />
                     LeetCode — Algorithmic Solutions
+                  </a>
+                  <a
+                    href={siteConfig.resumeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50 rounded p-0.5"
+                    aria-label="View Resume PDF in a new tab"
+                  >
+                    <FileText className="w-4 h-4 text-indigo-500" />
+                    View Resume — Professional Profile
                   </a>
                 </div>
               </div>

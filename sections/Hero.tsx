@@ -102,6 +102,14 @@ export function Hero() {
             >
               View My Work
             </button>
+            <a
+              href={siteConfig.resumeUrl}
+              download="Uma_FreeLancer.pdf"
+              className="px-8 py-4 bg-secondary/50 border border-border text-foreground font-semibold rounded-xl flex items-center justify-center gap-2 hover:bg-secondary transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50"
+              aria-label="Download Uma's Freelancer Resume PDF"
+            >
+              Download Resume
+            </a>
           </motion.div>
 
           {/* Trust points */}

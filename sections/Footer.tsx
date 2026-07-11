@@ -54,6 +54,15 @@ export function Footer() {
               {item.label}
             </a>
           ))}
+          <a
+            href={siteConfig.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50 rounded p-0.5"
+            aria-label="View Resume PDF in a new tab"
+          >
+            View Resume
+          </a>
         </nav>
 
         {/* Right Section: Back to Top & Social Connect */}

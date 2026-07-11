@@ -134,6 +134,17 @@ export function Navbar() {
             <ThemeToggle />
             
             <a
+              href={siteConfig.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:flex items-center gap-1 border border-border hover:bg-secondary text-foreground px-4 py-2 rounded-full text-xs font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50"
+              aria-label="View Resume PDF"
+            >
+              View Resume
+              <ArrowUpRight className="w-3.5 h-3.5" />
+            </a>
+
+            <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}
               className="hidden lg:flex items-center gap-1 bg-foreground text-background px-4 py-2 rounded-full text-xs font-semibold hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
@@ -192,6 +203,21 @@ export function Navbar() {
                 className="mt-6 w-full py-3.5 bg-foreground text-background rounded-xl font-semibold flex items-center justify-center gap-1.5 shadow-lg"
               >
                 Get in Touch
+                <ArrowUpRight className="w-4 h-4" />
+              </motion.a>
+
+              <motion.a
+                href={siteConfig.resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: (siteConfig.navItems.length + 1) * 0.05 }}
+                className="mt-3 w-full py-3.5 border border-border bg-secondary/50 text-foreground rounded-xl font-semibold flex items-center justify-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50"
+                aria-label="View Resume PDF"
+              >
+                View Resume
                 <ArrowUpRight className="w-4 h-4" />
               </motion.a>
             </nav>

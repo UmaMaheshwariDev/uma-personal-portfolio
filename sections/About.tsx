@@ -77,13 +77,13 @@ export function About() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href={siteConfig.links.resume}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 border border-border hover:bg-secondary transition-colors rounded-xl text-sm font-semibold flex items-center gap-2"
+                href={siteConfig.resumeUrl}
+                download="Uma_FreeLancer.pdf"
+                className="px-6 py-3 border border-border hover:bg-secondary transition-colors rounded-xl text-sm font-semibold flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50"
+                aria-label="Download Uma's Freelancer Resume PDF"
               >
                 <FileText className="w-4 h-4" />
-                Download CV / Resume
+                Download Resume
               </a>
               <a
                 href="#contact"
